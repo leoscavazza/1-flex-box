@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+/* Utilizei space-between para separar as divs filho */
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.cor1 {
+    background-color: #ED145B;
+
+}
+
+/* Utilizei o order como ensinado no site Flexbox Froggy para trocar a div 2 com a 3 e align-self para mudar as posições verticalmente  */
+.cor2 {
+    background-color: #63B1BC;
+    align-self: flex-end;
+    order: 3;
+}
+
+.cor3 {
+    background-color: #EFB661;
+    align-self: center;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
